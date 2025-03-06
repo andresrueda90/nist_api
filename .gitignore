@@ -1,0 +1,48 @@
+.idea/
+venv/
+__pycache__/
+.pytest_cache/
+
+# Archivos de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Configuración de entornos virtuales
+venv/
+.env
+*.env
+
+# Archivos de logs
+logs/
+*.log
+debug.log
+static/logs/
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Archivos de Docker
+*.tar
+*.pid
+*.swp
+
+# Archivos de compilación y dependencias
+node_modules/
+dist/
+build/
+
+# Configuración de bases de datos locales
+db.sqlite3
+instance/
+*.db
+
+# Archivos de migraciones innecesarios
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__/
+**/migrations/*.py, !**/migrations/__init__.py
